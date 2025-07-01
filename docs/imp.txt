@@ -1,0 +1,27 @@
+#######################################
+@@@ .env
+
+MONGO_URI=mongodb://127.0.0.1:27017/event_management
+JWT_SECRET=44f71b976ef60aac8a53cc81e10e33ab96c891a44f3fc490ac1b1ecc5a27c0cff6f360de8f56e371b981ad9e0bab194a0c09850b1430dd0ea4d99507dc6a5a918877c2d45d6c6ebbacd016e9362e719de3504080e2960bc16cbcf69f804a3bbd8d2589fb9d5fa2310a27f82343eb329d5cf685c075c164e5e13646ece5bd009c91c0b9d1480ce5b64b448e7af331e078431d03e5dc853e6751ccba3b9a9270f81d56e07af0554589269e4bb25b62ebcef9b4a680ab5b533937d65ec9a45191b5403de82beb17ce39d1d250c174ccc7791caff777e882c0025ef70f6e9b876cfd9869d38ca611d58c7bde31bb0abeec1e0f742ed61539e5c10e9bdd37a9898b59
+PORT=5000
+
+#######################################
+
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3NzE4MjJkMzViOTA3ZGJhMTI5MmU5MSIsImlhdCI6MTczNTY1OTc3MSwiZXhwIjoxNzM1NzQ2MTcxfQ.frM8219fW_MD_WRXBA8qToKxw3fw53p96SDBFS6e0eI
+
+#######################################
+
+Register:
+{
+    "name": "John",
+    "email": "john@example.com",
+    "password": "john@123"
+}
+Login:
+{
+    "email": "john@example.com",
+    "password": "john@123"
+}
+
+#######################################
+
